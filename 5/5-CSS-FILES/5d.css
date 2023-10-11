@@ -1,0 +1,26 @@
+p {
+    font: Arial;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.detail {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.learn-more {
+    color: rgb(58, 97, 204);
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

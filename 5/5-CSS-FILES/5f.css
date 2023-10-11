@@ -1,0 +1,25 @@
+p {
+    font-family: Arial;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.currency {
+    font-size: 15px;
+    margin-left: 7px;
+    color: rgb(114, 114, 114);
+}
+
+.today  {
+    color: rgb(49, 158, 49);
+}
+
+.time {
+    color: rgb(114, 114, 114);
+}
+
+.current-state {
+    color: rgb(189, 42, 42);
+}
