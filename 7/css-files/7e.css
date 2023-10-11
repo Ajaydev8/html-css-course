@@ -1,0 +1,13 @@
+.search-bar {
+    font-size: 14px;
+    padding-left: 15px;
+    height: 34px;
+    width: 400px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.search-bar:hover {
+    border: none;
+}
