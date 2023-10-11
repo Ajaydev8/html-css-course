@@ -1,0 +1,33 @@
+p {
+    font-family: Arial;
+    font-size: 14px;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.email-box {
+    height: 22px;
+    width: 315px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.policy {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.agree-button {
+    background-color: rgb(50, 120, 212);
+    font-size: 16px;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 322px;
+    border-radius: 25px;
+}
+
+.agree-button:hover {
+    cursor: pointer;
+}
