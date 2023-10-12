@@ -1,0 +1,32 @@
+.first-name,
+            .last-name {
+                font-size: 14px;
+                height: 32px;
+                width: 130px;
+                border: solid rgb(185, 174, 174) 1px;
+                border-radius: 4px;
+                padding-left: 10px;
+            }
+
+            .e-mail {
+                font-size: 15px;
+                border: solid rgb(185, 174, 174) 1px;
+                display: block;
+                margin-top: 12px;
+                padding-left: 10px;
+                width: 277px;
+                height: 32px;
+                border-radius: 6px;
+                margin-bottom: 12px;
+            }
+
+            .sign-up {
+                font-size: 18px;
+                color: white;
+                font-weight: bold;
+                border: none;
+                background-color: rgb(61, 103, 219);
+                height: 44px;
+                border-radius: 6px;
+                width: 290px;
+            }
