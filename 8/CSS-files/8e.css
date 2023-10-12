@@ -1,0 +1,35 @@
+* {
+    font-family: Arial;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+.pickup-textbox,
+.destination-textbox {
+    height: 36px;
+    width: 300px;
+    display: block;
+    border-radius: 6px;
+    border: none;
+    padding-left: 10px;
+    background-color: rgb(243, 243, 243);
+    margin-bottom: 8px;
+}
+
+.request-button {
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 9px 18px;
+}
+
+.schedule-button {
+    font-size: 13px;
+    background-color: rgb(221, 218, 218);
+    border: none;
+    padding: 9px 18px;
+    margin-left: 15px;
+}
