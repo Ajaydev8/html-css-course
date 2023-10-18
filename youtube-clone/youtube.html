@@ -2,66 +2,24 @@
 <html>
     <head>
         <title>YouTube-Clone</title>
-        <style>
-            p {
-                font-family: Arial;
-                margin-top: 0px;
-                margin-bottom: 0px;
-            }
-
-            .thumbnail {
-                width: 100%;
-            }
-
-            .search-bar {
-                font-size: 16px;
-                border: solid grey 1px;
-                margin-left: 16px;
-                display: block;
-            }
-
-
-            .video-title {
-                
-                font-size: 14px;
-                font-weight: bold;
-                margin-bottom: 12px;
-                margin-top: 15px;
-            }
-
-            .video-info-grid {
-                display: grid;
-                grid-template-columns: 50px 1fr;
-            }
-
-            .profile-picture {
-                border-radius: 50px;
-                width: 40px;
-                margin-top: 13px;
-            }
-
-
-
-
-            .channel-name,
-            .video-stats {
-                color: #606060;
-                margin-bottom: 4px;
-                font-size: 12px;
-            }
-
-            .video-grid {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 15px;
-                row-gap: 40px;
-            }
-
-        </style>
+        <link rel="stylesheet" href="CSS-FILES/video.css">
+        <link rel="stylesheet" href="CSS-FILES/header.css">
+        <link rel="stylesheet" href="CSS-FILES/general.css">
     </head>
 
     <body>
-        <input class="search-bar" type="text" placeholder="Search">
+        <div class="header">
+            <div class="left-section">
+                Left Section
+            </div>
+            <div class="middle-section">
+                <input class="search-bar" type="text" placeholder="Search">
+            </div>
+            <div class="right-section">
+                Right section
+            </div>
+        </div>
+        
 
         <div class="video-grid">
             <div class="video-preview">
