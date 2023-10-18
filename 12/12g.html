@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12g flexbox</title>
+        
+        <style>
+            .follow-suggestions {
+                height: 200px;
+                width: 365px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                font-family: Arial;
+            }
+
+            .profile {
+                display: flex;
+                font-family: Arial;
+                justify-content: space-between;
+                width: 365px;
+                margin-top: 15px;
+                margin-left: 12px;
+            }
+
+            .profile-picture {
+                width: 50px;
+                height: 50px;
+                border-radius: 35px;
+                object-fit: cover;
+                object-position: top;
+            }
+
+            .description {
+                margin-left: 0px;
+            }
+
+            .first-name {
+                font-weight: bold;
+                font-size: 15px;
+                margin-bottom: 2px;
+                margin-top: -5px;
+            }
+
+            .animal {
+                color: rgb(160, 156, 156);
+                font-size: 16px;
+            }
+
+            .popular {
+                color: rgb(160, 156, 156);
+                font-size: 14px;
+                margin-top: 4px;
+                margin-bottom: 15px;
+            }
+
+            .follow-button {
+                margin-left: 150px;
+                font-weight: bold;
+                font-size: 15px;
+                border-radius: 5px;
+                border: none;
+                background-color: rgb(70, 153, 221);
+                color: white;
+                padding: 9px 16px;
+            }
+
+            .follow-button:hover {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="follow-suggestions">
+            <div class="profile">
+
+                <div class="profile-picture">
+                    <img class="profile-picture" src="photos/cat-1.jpg">
+                </div>
+                
+                <div class="description">
+                    <div class="first-name">Oliver</div>
+                    <div class="animal">the cat</div>
+                    <div class="popular">Popular</div>
+                </div>
+
+                <div>
+                    <button class="follow-button">Follow</button>
+                </div>
+
+
+            </div>
+
+            <div class="profile">
+
+                <div class="profile-picture">
+                    <img class="profile-picture" src="photos/cute-doggo.webp">
+                </div>
+                
+                <div class="description">
+                    <div class="first-name">Doggo</div>
+                    <div class="animal">Vigilante
+
+                    </div>
+                    <div class="popular">Popular</div>
+                </div>
+
+                <div>
+                    <button class="follow-button">Follow</button>
+                </div>
+            
+            </div>
+
+
+            <div class="profile">
+
+                <div class="profile-picture">
+                    <img class="profile-picture" src="photos/octopuss.avif">
+                </div>
+                
+                <div class="description">
+                    <div class="first-name">octopuss</div>
+                    <div class="animal">Sus
+
+                        
+                    </div>
+                    <div class="popular">Popular</div>
+                </div>
+
+                <div>
+                    <button class="follow-button">Follow</button>
+                </div>
+            
+            </div>
+        </div>
+    </body>
+</html>
