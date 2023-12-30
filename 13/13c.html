@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            13c
+        </title>
+
+        <style>
+            .parent-div {
+                padding: 15px;
+                font-family: Arial;
+            }
+
+            img {
+                height: 50px;
+                width: 50px;               
+                border-radius: 50px;
+                object-fit: cover;
+                object-position: top;
+                margin-right: 12px;
+            }
+
+            .first-flexbox {
+                display: flex;
+            }
+
+            .second-flexbox {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .verticle-div {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .time {
+                margin-left: 350px;
+                margin-bottom: -18px;
+                font-size: 14px;
+                color: rgb(153, 152, 152);
+            }
+
+            .all-inboxes {
+                margin-bottom: 18px;
+                color: rgb(153, 152, 152);
+                font-size: 14px;
+            }
+
+            .first-headline {
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            .second-headline {
+                font-size: 16px;
+                font-weight: bold;
+                margin-top: 4px;
+            }
+
+            .additional-info {
+                font-size: 15px;
+                color: rgb(153, 152, 152);
+                margin-top: 2px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="parent-div">
+            <div class="all-inboxes">
+                ALL INBOXES
+            </div>
+
+            <div class="time">4:58 PM</div>
+
+            <div class="first-flexbox">
+                <div>
+                    <img src="photos/cat-1.jpg">
+                </div>
+                <div class="vertical-div">
+                    <div class="second-felxbox">
+                        <div class="first-headline">Chewy Promotions</div>
+                    </div>
+                    <div class="second-headline">Biggest sales of the year!</div>
+                    <div class="additional-info">Hey there! We're writing to tell you about our... </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
