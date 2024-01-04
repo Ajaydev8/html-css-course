@@ -11,7 +11,7 @@
     background-color: white;
     z-index: 100;
     
-    border-bottom: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(240, 239, 239);
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
 
@@ -19,7 +19,7 @@
     width: 165px;
     display: flex;
     flex-direction: row;
-    margin: 15px;
+    margin: 12px;
     align-items: center;
 }
 
@@ -44,9 +44,9 @@
 }
 
 .hamburger-menu {
-    height: 25px;
-    margin-right: 25px;
-    margin-left: 15px;
+    height: 24px;
+    margin-right: 24px;
+    margin-left: 12px;
 }
 
 .youtube-logo {

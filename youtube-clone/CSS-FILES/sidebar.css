@@ -6,16 +6,32 @@
     bottom: 0;
     width: 72px;
     font: arial;
+    z-index: 200;
+    padding-top: 6px;
+    
 }
 
 
+.sidebar-link {
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+}
 
-.home-button {
-    height: 100px;
+.sidebar-link:hover {
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+}
+
+.sidebar img {
+    width: 24px;
+}
+
+.link-name {
+    font-family: Roboto, Arial;
     font-size: 10px;
-}
-
-.home-image {
-    height: 15px;
-    margin-bottom: 6px;
+    margin-top: 4px;
+    
 }

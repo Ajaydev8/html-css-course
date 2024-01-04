@@ -7,8 +7,10 @@
     
     font-size: 14px;
     font-weight: bold;
+    line-height: 20px;
     margin-bottom: 12px;
-    margin-top: 15px;
+    margin-top: 8px;
+    margin-left: -2px;
 }
 
 .video-info-grid {
@@ -18,8 +20,8 @@
 
 .profile-picture {
     border-radius: 50px;
-    width: 40px;
-    margin-top: 13px;
+    width: 36px;
+    margin-top: 8px;
 }
 
 
@@ -28,6 +30,8 @@
     color: #606060;
     margin-bottom: 4px;
     font-size: 12px;
+    margin-left: -2px;
+    margin-top: -2px;
 }
 
 .video-grid {
@@ -46,10 +50,10 @@
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
     right: 5px;
-    bottom: 8px;
+    bottom: 10px;
     padding: 4px;
     border-radius: 2px;
-    font-size: 13px;
+    font-size: 12px;
     font-family: Roboto, Arial;
-    font-weight: 500;
+    font-weight: 510;
 }
