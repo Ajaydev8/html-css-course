@@ -1,0 +1,29 @@
+.sidebar-1 {
+    background-color: rgb(39, 38, 38);
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 80px;
+}
+
+.profile-1,
+.profile-2,
+.profile-3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 10px;
+}
+
+.sidebar-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
