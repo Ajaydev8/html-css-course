@@ -71,7 +71,6 @@
 }
 
 .search-bar::placeholder {
-    font-family: Roboto, Arial;
     font-size: 16px;
     color: rgb(160, 158, 158);
 }
@@ -108,7 +107,6 @@
 .notifications-icon-container .tool-tip {
     position: absolute;
     background-color: rgba(85, 85, 85);
-    font-family: Roboto, Arial;
     padding: 10px;
     color: white;
     font-size: 12px;
@@ -170,7 +168,6 @@
 
 .notifications-number {
     position: absolute;
-    font-family: Roboto, Arial;
     font-size: 11px;
     background-color: rgb(199, 7, 7);
     border-radius: 20px;
